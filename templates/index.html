@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Deteksi Passport</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/img/favicons.png" rel="icon">
+  <link href="static/img/apple-touch-icons.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/css/main.css" rel="stylesheet">
+  <link href="static/css/main.css" type="text/css" rel="stylesheet">
+  <!-- =======================================================
+  * Template Name: Yummy - v1.3.0
+  * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="" class="logo d-flex align-items-center me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="static/img/logo.png" alt=""> -->
+        <h1>ScanMRZ<span>.</span></h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#tutorial">Tutorial</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <a class="btn-book-a-table" href="#scan">SCAN NOW</a>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="home" class="hero d-flex align-items-center section-bg">
+    <div class="container">
+      <div class="row justify-content-between gy-5">
+        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 data-aos="fade-up">MRZ Passport Reader<br>With Website</h2>
+          <p data-aos="fade-up" data-aos-delay="100">ScanMRZ dirancang untuk menangkap dan mengekstrak informasi pengguna dari dokumen perjalanan yang dapat dibaca mesin, terutama Passport. Algoritma lokalisasi dan decoding MRZ yang canggih memberikan akurasi dan kecepatan dalam mendeteksi.</p>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="#scan" class="btn-book-a-table">SCAN NOW</a>
+            <a href="https://www.youtube.com/watch?v=i-jw58ic5R8&t=3s&ab_channel=Dynamsoft" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+          <img src="static/img/example/hero-section.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="why-box">
+              <h3>Kenapa Memilih ScanMRZ?</h3>
+              <p>
+                MRZ code dirancang agar mudah dibaca oleh mesin optik dan perangkat lunak, 
+                yang memungkinkan proses deteksi dan ekstraksi informasi secara akurat dan efisien.
+            </div>
+          </div><!-- End Why Box -->
+
+          <div class="col-lg-8 d-flex align-items-center">
+            <div class="row gy-4">
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-file-lock"></i>
+                  <h4>Keamanan</h4>
+                  <p>Informasi di dalam MRZ code telah dienkripsi dan menggunakan standar keamanan tertentu untuk menghindari pemalsuan paspor. 
+                  </p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-speedometer2"></i>
+                  <h4>Kecepatan Proses</h4>
+                  <p>Deteksi MRZ code dapat membantu mengotomatisasi proses verifikasi identitas dengan lebih cepat 
+                    daripada jika harus menginput data secara manual.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-bullseye"></i>
+                  <h4>Akurasi Informasi</h4>
+                  <p>Menggunakan MRZ code untuk mendapatkan informasi dari paspor cenderung lebih akurat 
+                    daripada memasukkan data manual karena kesalahan manusia dapat dihindari.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+
+    <!-- ======= Tutorial Section ======= -->
+    <section id="tutorial" class="chefs section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Tutorial</h2>
+          <p>Berikut <span>Tutorial</span> ScanMRZ</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="chef-member">
+              <div class="member-img">
+                <img src="static/img/example/Ori image.png" class="img-fluid" alt="">
+              </div>
+              <button type="button" class="btn btn-outline-primary btn-sm rounded-pill" disabled>Step 1</button>
+              <div class="member-info">
+                <h4>Upload Images</h4>
+                <span>Input</span>
+                <p>Upload dokumen paspor yang ingin discan sesuaikan dengan contoh gambar diatas dan bisa upload dokumen paspor lebih dari satu.</p>
+              </div>
+            </div>
+          </div><!-- End Tutorial 1 -->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="chef-member">
+              <div class="member-img">
+                <img src="static/img/example/MRZCode.png" class="img-fluid" alt="">
+              </div>
+              <button type="button" class="btn btn-outline-primary btn-sm rounded-pill" disabled>Step 2</button>
+              <div class="member-info">
+                <h4>Detection MRZ Code</h4>
+                <span>Processing</span>
+                <p>Mesin akan memproses untuk mendapatkan informasi mengenai paspor tersebut.</p>
+              </div>
+            </div>
+          </div><!-- End Tutorial 2 -->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="chef-member">
+              <div class="member-img">
+                <img src="static/img/example/Output.png" class="img-fluid" alt="">
+              </div>
+              <button type="button" class="btn btn-outline-primary btn-sm rounded-pill" disabled>Step 3</button>
+              <div class="member-info">
+                <h4>Hasil Informasi</h4>
+                <span>Output</span>
+                <p>Berikut ini adalah hasil dari Proccesing MRZ Code yang dilakukan.</p>
+              </div>
+            </div>
+          </div><!-- End Tutorial 3 -->
+
+        </div>
+
+      </div>
+    </section><!-- End Tutorial Section -->
+
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>About Us</h2>
+          <p>Learn More <span>About Us</span></p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-7 position-relative about-img" style="background-image: url(static/img/about-passport.jpg) ;" data-aos="fade-up" data-aos-delay="150">
+          </div>
+          <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+                Selamat datang di halaman "About Us" untuk produk kami yang inovatif yaitu Deteksi Passport menggunakan MRZCode. 
+                Kami bangga memperkenalkan solusi canggih ini yang menggabungkan teknologi deteksi visual dan pengenalan karakter optik untuk memudahkan dan meningkatkan efisiensi dalam proses verifikasi passport.
+              </p>
+              <h4 class="fst-border"> Visi dan Misi : </h4>
+              <ul>
+                <li><i class="bi bi-check2-all"></i> Visi kami adalah menciptakan dunia yang lebih aman dan terhubung melalui penerapan teknologi deteksi terbaru.</li>
+                <li><i class="bi bi-check2-all"></i> Misi kami adalah menyediakan solusi terdepan dalam hal deteksi passport menggunakan MRZCode, memastikan keakuratan, kecepatan, dan keamanan dalam proses verifikasi identitas.</li>
+              </ul>
+              <p>
+                Dengan adanya visi dan misi, Diharapkan proses izin belajar mahasiswa asing dapat berjalan dengan cepat dan efisien.  
+              </p>
+              <br>
+              <br>
+              <br>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="section-header">
+          <p>About <span>Developer</span></p>
+        </div>
+        <div >
+        <img style="border-radius:8; width: 8rem;" src="static/img/Alvin-img.jpg" class="rounded-circle mx-auto d-block border border-primary" alt="">
+        </div>
+        <br>
+        <div>
+          <p class="text-center">Saya Alvin, mahasiswa kelas 4IA14 di jurusan Informatika Universitas Gunadarma. Saat ini, saya tengah fokus pada penyusunan skripsi di bawah bimbingan Dr. Andreas Hadiyono, ST., MMSI. 
+            Dalam skripsi ini, saya tengah mengembangkan sebuah simulasi melalui aplikasi berbasis website yang bertujuan untuk mendeteksi passport sebagai bagian dari proses pengajuan izin belajar bagi mahasiswa asing.</p>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= SCAN Section ======= -->
+    <section id="scan" class="book-a-table">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Input Your Images</h2>
+          <p>Scan <span>Now</span></p>
+        </div>
+        <form action="#scan" method="post" enctype="multipart/form-data">
+          <div id="drop-area">
+              <div>Drag and drop files here</div>
+              <input class="btn btn-secondary btn-sm" type="file" name="file" multiple>
+              <div id="file-list"></div>
+          </div>
+          <input class="btn btn-primary btn-lg" type="submit" value="Upload" style="width= 100%">
+      </form>
+      
+
+          {% if mrz_detected %}
+          <div id="result-section">
+              {% for result in mrz_results %}
+              <div class="file-result">
+                  <h2>MRZ Code for {{ result.filename }}:</h2>
+                  <img src="{{ url_for('uploaded_file', filename=result.filename) }}" alt="Uploaded Image">
+                  {% if result.code %}
+                  <p>{{ result.code }}</p>
+                  {% else %}
+                  <p>MRZ Code Not Detected</p>
+                  {% endif %}
+  
+                  {% if result.fields %}
+                  <h2>MRZ Fields:</h2>
+                  {% for key, value in result.fields.items() %}
+                  <p>{{ key }}: {{ value }}</p>
+                  {% endfor %}
+                  {% endif %}
+  
+                  
+              </div>
+              {% endfor %}
+          </div>
+          {% endif %}
+  
+          <div id="result-container">
+              <p>Total images: {{ total_images }}</p>
+              <p>MRZ Detected: {{ mrz_detected_count }}</p>
+              <p>MRZ Not Detected: {{ mrz_not_detected_count }}</p>
+              
+          </div>
+  
+
+      </div>
+    </section><!-- End SCAN Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div>
+            <h4>Address</h4>
+            <p>
+              Jakarta Barat DKI Jakarta<br>
+              Indonesia<br>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Hubungi Kami</h4>
+            <p>
+              <strong>Phone:</strong> +62 88210206830<br>
+              <strong>Email:</strong> alvinjesus1@gmail.com<br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>
+              <strong>Mon-Sun: 24 Hours</strong>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Follow Us</h4>
+          <div class="social-links d-flex">
+            <a href="https://twitter.com/ALVIN27421475" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="https://web.facebook.com/alvinvin2001" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/alvinvin2001/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/alvinvin2001/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>2023</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/ -->
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/vendor/aos/aos.js"></script>
+  <script src="static/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="static/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="static/js/main.js"></script>
+
+</body>
+
+</html>
